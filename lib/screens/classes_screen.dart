@@ -143,7 +143,7 @@ class CalenderDateFormatAddition extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimatedContainer(
-      duration: Duration(milliseconds: 400),
+      duration: Duration(seconds: 4),
       child: RichText(
         text: TextSpan(children: [
           TextSpan(
